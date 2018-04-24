@@ -1,0 +1,12 @@
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\bin\Release\netcoreapp2.0\AutoBlog.deps.json
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\bin\Release\netcoreapp2.0\AutoBlog.runtimeconfig.json
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\bin\Release\netcoreapp2.0\AutoBlog.runtimeconfig.dev.json
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\bin\Release\netcoreapp2.0\AutoBlog.dll
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\bin\Release\netcoreapp2.0\AutoBlog.pdb
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\obj\Release\netcoreapp2.0\AutoBlog.csprojResolveAssemblyReference.cache
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\obj\Release\netcoreapp2.0\AutoBlog.csproj.CoreCompileInputs.cache
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\obj\Release\netcoreapp2.0\AutoBlog.AssemblyInfoInputs.cache
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\obj\Release\netcoreapp2.0\AutoBlog.AssemblyInfo.cs
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\obj\Release\netcoreapp2.0\AutoBlog.dll
+C:\Users\viktor\source\repos\AutoBlog\AutoBlog\obj\Release\netcoreapp2.0\AutoBlog.pdb

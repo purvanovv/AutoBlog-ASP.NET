@@ -1,0 +1,64 @@
+﻿@model CarEditViewModel
+@{
+    ViewData["Title"] = "Edit Car";
+}
+
+<h2>Edit</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="Brand"></label>
+                <input class="form-control" asp-for="Brand" placeholder="Brand">
+                <span asp-validation-for="Brand" class="form-text text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Category"></label>
+                <input class="form-control" asp-for="Category" placeholder="Category">
+                <span asp-validation-for="Category" class="form-text text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Engine"></label>
+                <input class="form-control" asp-for="Engine" placeholder="Engine">
+                <span asp-validation-for="Engine" class="form-text text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="HorsePower"></label>
+                <input type="number" min="0" class="form-control" asp-for="HorsePower" placeholder="HorsePower">
+                <span asp-validation-for="HorsePower" class="form-text text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageUrl"></label>
+                <input class="form-control" asp-for="ImageUrl" placeholder="ImageUrl">
+                <span asp-validation-for="ImageUrl" class="form-text text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Model"></label>
+                <input class="form-control" asp-for="Model" placeholder="Model">
+                <span asp-validation-for="Model" class="form-text text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Type"></label>
+                <input class="form-control" asp-for="Type" placeholder="Type">
+                <span asp-validation-for="Type" class="form-text text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Year"></label>
+                <input type="number" min="1990" class="form-control" asp-for="Year" placeholder="Year">
+                <span asp-validation-for="Year" class="form-text text-danger"></span>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Submit Changes" />
+            <a asp-controller="Cars" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-success">Back</a>
+        </form>
+    </div>
+</div>
+
+

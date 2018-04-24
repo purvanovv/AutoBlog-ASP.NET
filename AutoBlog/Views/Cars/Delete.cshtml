@@ -1,0 +1,8 @@
+﻿@model CarDeleteViewModel
+@{
+    ViewData["Title"] = $"Delete {Model}";
+}
+
+<h2>Are you shure you want to delete car: @Model.Brand @Model.Model?</h2>
+<a asp-controller="Cars" asp-action="ConfirmDelete" asp-route-id="@Model.Id" class="btn btn-danger">YES</a>
+<a asp-controller="Cars" asp-action="All" class="btn btn-default">NO</a>

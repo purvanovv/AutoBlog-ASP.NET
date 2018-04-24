@@ -1,0 +1,25 @@
+﻿@model CarDetailsViewModel
+@{
+    ViewData["Title"] = $"{Model.Brand} { Model.Model}";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <img class="img-responsive" src="@Model.ImageUrl" alt="@Model.Brand @Model.Model" />
+    </div>
+    <div class="col-md-6">
+        <h2>@Model.Brand @Model.Model</h2>
+        <h4>Year: @Model.Year</h4>
+        <h4>Engine: @Model.Engine</h4>
+        <h4>Horse Power: @Model.HorsePower hp</h4>
+        <h4>Type: @Model.Type</h4>
+        <small><em>Added by @Model.Username</em></small><br />
+        @if (User.Identity.IsAuthenticated && Model.Username == User.Identity.Name)
+        {
+            <a class="btn btn-danger" asp-controller="Cars" asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+            <a class="btn btn-success" asp-controller="Cars" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+        }
+    </div>
+</div>
+
+
